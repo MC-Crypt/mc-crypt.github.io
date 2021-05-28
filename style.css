@@ -1,0 +1,166 @@
+.background {
+  width:100%;
+  height: 100vh;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: -1;
+}
+.maintxt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blueviolet;
+}
+html {
+  padding: 0px;
+  border: 0px
+}
+.body {
+  padding: 0px;
+  border: 0px;
+  margin:0px;
+  overflow: hidden;
+}
+.main {
+  top: 0px;
+  position: absolute;
+  width: 100%;
+}
+.head {
+  height: 100px;
+  width:100%;
+  background-color: black;
+  padding: 10px 0px 0px 0px;
+}
+.info {
+  background-image: url(backdrop.png);
+  padding: 0px;
+  border: 0px;
+  margin:0px;
+}
+.midtxt {
+  text-align: center;
+  width: 100%;
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+  text-align: center;
+  size: auto;
+  margin: 40px;
+  font-size: 420%;
+  color:blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+.headtxt {
+  text-decoration: none;
+  color:blueviolet;
+}
+.timer {
+  text-align: center;
+  width:100%;
+  font-size: 200%;
+  margin: 20%px 0px 0px 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: purple;
+}
+.selection {
+  height: 310px;
+  width: 340px;
+  margin: 7% auto 0px auto;
+  border: 5px;
+  border-width: 3px;
+  border-color: rgba(75, 0, 75, 0.5);
+  border-style: solid;
+  border-radius: 20px;
+  align-self: center;
+  background-color: rgba(114, 59, 97, 0.5);
+}
+.box {
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  border: 5px;
+  border-width: 3px;
+  border-color: rgba(75, 0, 75, 0.5);
+  border-style: solid;
+  border-radius: 20px;
+  align-self: center;
+  background-color: rgba(114, 59, 97, 0.75);
+  transition: 1s;
+}
+.box2 {
+  text-align: center;
+  height: 250px;
+  width: 120px;
+  float: left;
+  margin: 20px 20px 0px 20px;
+  border: 5px;
+  border-width: 3px;
+  border-color: rgba(75, 0, 75, 0.5);
+  border-style: solid;
+  border-radius: 20px;
+  align-self: center;
+  background-color: rgba(114, 59, 97, 0.75);
+  transition: 1s;
+}
+.box2:hover {
+  background-color: rgba(72, 255, 0, 0.5);
+}
+.box:hover {
+  background-color: rgba(72, 255, 0, 0.5);
+}
+.github {
+  height:90px;
+  width:90px;
+  margin: 3px 13px 0px 13px;
+}
+.txt {
+  margin: 0px;
+  color: black;
+  font-style: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt2 {
+  margin: 40% 0px 40% 0px;
+  color: black;
+  font-style: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt3 {
+  margin: 100% 0px 100% 0px;
+  color: black;
+  font-style: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
